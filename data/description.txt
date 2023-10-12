@@ -1,0 +1,26 @@
+Brazilian air-trac network: Data collected from the National Civil Aviation Agency (ANAC)1
+from January to
+December 2016. e network has 131 nodes, 1,038 edges
+(diameter is 5). Airport activity is measured by the total
+number of landings plus takeos in the corresponding year.
+
+•American air-trac network: Data collected from the Bureau of Transportation Statistics2
+from January to October,
+2016. e network has 1,190 nodes, 13,599 edges (diameter
+is 8). Airport activity is measured by the total number of
+people that passed (arrived plus departed) the airport in
+the corresponding period.
+
+European air-trac network: Data collected from the Statistical Oce of the European Union (Eurostat)3
+from January
+to November 2016. e network has 399 nodes, 5,995 edges
+(diameter is 5). Airport activity is measured by the total number of landings plus takeos in the corresponding
+period.
+
+For each airport, we assign one of four possible labels corresponding
+to their activity. In particular, for each dataset, we use the quartiles
+obtained from the empirical activity distribution to split the dataset
+in four groups, assigning a dierent label for each group. us, label
+1 is given to the 25% less active airports, and so on. Note that all
+classes (labels) have the same size (number of airports). Moreover,
+classes are related more to the role played by the airport
